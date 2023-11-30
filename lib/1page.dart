@@ -12,7 +12,7 @@ class FirstScreenState extends State<FirstScreen>{
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Container(
-          child: Row(
+          child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Center(child: Text('Saral Bachat Beema Plan',style: TextStyle(fontSize:25,fontWeight: FontWeight.bold),)),
